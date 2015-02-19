@@ -1,0 +1,270 @@
+/* reset */
+
+html,
+body,
+h1,
+h2,
+h3,
+div {
+  padding: 0;
+  margin: 0;
+}
+/* clearfix */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+/* global */
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 2em;
+  color: #fff;
+}
+
+div.container {
+  width: 1180px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* header */
+
+.header {
+  text-align: center;
+  background: url(../images/hero.jpg) no-repeat center;
+  background-size: cover;
+  margin: 0;
+}
+
+.header .container {
+  height: 880px;
+}
+
+.header h1 {
+  padding-top: 180px;
+  font: 300 60px / 48px Lato;
+}
+
+.header p {
+  color: #d0e7e9;
+  font-style: italic;
+  width: 681px;
+  margin: 22px auto;
+}
+
+.header img {
+  padding: 70px 0 260px 0;
+  display: block;
+  margin: auto;
+}
+
+.header a {
+  color: #fff;
+  font-size: 22px;
+  display: inline-block;
+  line-height: 70px;
+  text-decoration: none;
+  background: #7accc8;
+  border-radius: 3px;
+  border-top: 1px solid #ace1df;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .2);
+  width: 280px;
+  height: 70px;
+}
+
+.download {
+  background: #e8b968 url(../images/ipad-bg.png) no-repeat right -10%;
+  background-size: ;
+}
+
+.download .container {
+  height: 750px;
+  padding: 90px 600px 0 0;
+}
+
+.download h2 {
+  font-size: 2em;
+}
+
+.download p {
+  padding-bottom: 45px;
+}
+
+.download a {
+  color: #fff;
+  display: block;
+  line-height: 68px;
+  text-align: center;
+  font-size: 22px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, .0);
+  border-radius: 3px;
+  border: 4px solid #fff;
+  height: 68px;
+  width: 280px;
+}
+
+.review {
+  background: #5b6869 url(../images/tBG01.jpg) no-repeat left;
+  text-align: center;
+}
+
+.review .container {
+  height: 600px;
+}
+
+.review img {
+  padding-top: 140px;
+}
+
+.review p {
+  font-style: italic;
+  font-size: 2em;
+}
+
+.review .round-btn {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.review .round-btn:last-child {
+  margin: 0;
+}
+
+.review .current {
+  background: #fff;
+}
+
+.demo {
+  background: #fff url(../images/arrowBG.png) no-repeat top;
+  color: #7a8387;
+}
+
+.demo .container {
+  height: 825px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.demo .left-column {
+  text-align: left;
+  float: left;
+  width: 520px;
+  border-right: 1px solid #ecf0f3;
+  padding-right: 69px;
+}
+
+.demo .right-column {
+  text-align: left;
+  float: right;
+  width: 520px;
+  margin-left: 70px;
+}
+
+.demo h3 {
+  text-transform: uppercase;
+}
+
+.demo a {
+  margin-top: 80px;
+  color: #fff;
+  text-decoration: none;
+  background: #f69679;
+  border-radius: 3px;
+  width: 180px;
+  height: 60px;
+  line-height: 61px;
+  display: inline-block;
+}
+
+.gallery {
+  background: #f6f6f4;
+  color: #abbcc3;
+}
+
+.gallery .container {
+  height: 800px;
+  padding: 100px 0;
+}
+
+.gallery .box {
+  float: left;
+  background: #fff;
+  margin-right: 22px;
+}
+
+.gallery .box-pink {
+  background: #f69679;
+  height: 345px;
+  width: 335px;
+}
+
+.gallery .box-yellow {
+  background: #e8b968;
+  height: 345px;
+  width: 335px;
+}
+
+.gallery h3 {
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.gallery p {
+  font-style: italic;
+  margin-left: 40px;
+}
+
+footer {
+  background: #7accc8;
+}
+
+footer .container {
+  padding: 100px 0;
+}
+
+footer p {
+  float: left;
+  width: 640px;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: #5B6869;
+}
+
+footer img {
+  padding: 40px;
+  display: block;
+  margin: 70px auto;
+}
+
+footer .copy {
+  text-align: center;
+}
+footer .copy a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+}
