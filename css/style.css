@@ -126,24 +126,6 @@ div.container {
   padding-top: 130px;
 }
 
-.review p {
-  font-style: italic;
-  font-size: 2em;
-}
-
-.review .round-btn {
-  border-radius: 50%;
-  border: 4px solid #fff;
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  margin-right: 25px;
-}
-
-.review .round-btn:last-child {
-  margin: 0;
-}
-
 .review .current {
   background: #fff;
 }
@@ -176,7 +158,9 @@ div.container {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-  line-height: 40px
+  line-height: 40px;
+  font-style: italic;
+  font-size: 2em;
 }
 
 .dots {
